@@ -1,6 +1,6 @@
 #include <dpp/dpp.h>
 
-std::string TOKEN = "MTEyODcxMjcwNjkyMTM0MDk3OA.GL304i.80_8MwLfYaiubcxFri-je_lDNi6DQbr6X53BZ4";
+std::string TOKEN = "Your_API_TOKEN";
 int main(){
 
     dpp::cluster bot(TOKEN, dpp::i_default_intents | dpp::i_message_content);
